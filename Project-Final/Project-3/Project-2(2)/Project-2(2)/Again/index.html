@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belgium Campus</title>
+    <link rel="stylesheet" href="look.css">
+    <script src="search.js" defer></script>
+    <script src="project.js" defer></script>
+    <script src="enroll.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="BC.png" alt="Belgium Campus Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <form id="searchform">
+            <input type="text" placeholder="Search for courses" class="search1" id="searchItem">
+            <button onclick="search()" type="submit" class="searchButton">Search</button>
+        </form>
+    </header>
+    
+    <main>
+        <section id="home" class="homePart">
+            <div class="info">
+                <h1>Welcome to Belgium Campus</h1>
+                <p>Belgium Campus iTversity was established in 1999 with the goal of ensuring that all graduates would be employable in an evolving economic environment. The goal was to promote innovation, forward-thinking and aspirations in our students to shape the future of society.</p>
+                <p> It was imperative for us to focus on developing leading qualifications and maintaining impeccable academic standards for those who entrusted us to provide them with the foundations necessary to excel in the Information Technology industry. With our student-centred focus we continually strive to provide the most cutting-edge information and training methods to create a fertile learning environment. In 2009, Belgium Campus developed its Participative Development </p> <p>Model which is geared to making our students industry-ready by providing them with the required skills, profiles and acumen so desperately needed in the industry. It was our hope then, as it is now, that our students would not only be employable, but become indispensable assets to their employers with the skill-set and training imparted to them at Belgium Campus. We will always make it our top priority to ensure that our graduates are sought-after.</p>
+            </div>
+            <img src="pic.png" alt="Belgium Campus" class="homeImage">
+        </section>
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <div class="courseList"></div>
+        </section>
+        <section id="courseDetails" style="display: none;">
+            <h2>Course Details</h2>
+            <div id="courseInfo"></div>
+            <button onclick="printCourse()">Print Course</button>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p><b>Call:</b> 010 593 5368 <br>
+            <b>Email:</b> info@belgiumcampus.ac.za</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Belgium Campus ITversity 1 NPC registered with the Department of Higher Education & Training as a private higher education institution under the Higher Education Act, 1997. Registration Certificate No 2003/HE08/001</p>
+    </footer>
+</body>
+</html>
