@@ -1,4 +1,4 @@
-# WPR281-Project
+# 2nd year Group Project
 
 A modern web application built using **Typescript**, **HTML** and **CSS**. This project focuses on creating a responsive, user-friendly experience with maintainable, well-typed code.
 
