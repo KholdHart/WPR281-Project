@@ -1,6 +1,6 @@
 # WPR281-Project
 
-A modern web application built using **HTML** and **CSS**. This project focuses on creating a responsive, user-friendly experience with maintainable, well-typed code.
+A modern web application built using **Typescript**, **HTML** and **CSS**. This project focuses on creating a responsive, user-friendly experience with maintainable, well-typed code.
 
 ---
 
